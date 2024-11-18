@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e3da; /* Fondo con un tono suave beige */
+    color: #333; /* Color de texto */
+}
+
+header {
+    background: #f6b894; /* Fondo anaranjado pastel */
+    color: #333; /* Color de texto */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333; /* Texto del menú */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff7f0; /* Fondo blanco con un toque cálido */
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f6b894; /* Igual que el encabezado */
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    margin: 20px 0;
+    background-color: #fff7f0; /* Fondo cálido */
+    
+}
+
+th {
+    background-color: #eab38d; /* Color más intenso que el fondo */
+    color: #333;
+    text-align: center;
+    
+}
+
+td {
+    background-color: #f5e3da; /* Fondo de celdas */
+    color: #333;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Espacio entre la imagen y el título */
+}
+
+.logo {
+    width: 150px; /* Ajusta el tamaño de la imagen del logo */
+    height: auto;
+}
+
